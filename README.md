@@ -45,7 +45,30 @@ The moving-square and accelerometer-square examples provide **RGB generator modu
 - A 50 MHz input clock divided by two produces a 25 MHz pixel clock for the VGA timing logic.
 - This repository contains **VHDL source only**; Quartus project files and FPGA pin assignments are not included.
 - The source variants have **not yet been recompiled or simulated** in this repository. Testbenches and waveform results may be added later.
-- Original board photographs, when provided, illustrate the university hardware exercises; they are not a validation of every source variant here.
+- Original photographs document the VGA outputs observed during the university hardware exercises. They do not constitute verification of every VHDL source variant included in this repository.
+
+## Hardware Demonstration
+
+The VGA display was demonstrated on a Terasic DE10-Lite FPGA development board connected to an external monitor.
+
+### Hardware Setup
+
+![DE10-Lite FPGA setup](docs/images/de10-lite-setup.jpg)
+
+### Moving Square
+
+![Moving red square](docs/images/moving-red-square.jpg)
+
+### Color Gradients
+
+**Red gradient**
+
+![Red gradient](docs/images/red-gradient.jpg)
+
+**RGB gradient**
+
+![RGB gradient](docs/images/rgb-gradient.jpg)
+
 
 ## Next steps
 
