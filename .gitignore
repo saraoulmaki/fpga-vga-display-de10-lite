@@ -1,0 +1,6 @@
+.DS_Store
+*.bak
+*.qws
+*.vcd
+*.ghw
+work-obj*.cf
